@@ -17,8 +17,17 @@ class ChatPage extends Component {
     ]
   };
 
+
+  
   render() {
     const { messages } = this.state;
+
+    // const { endpoint } = this.state;
+  // const socket = socketIOClient(endpoint);
+  // socket.on("change color", col => {
+  //   document.body.backgroundColor = col;
+  // });
+
     return (
       <div>
         <ul>
@@ -35,6 +44,8 @@ class ChatPage extends Component {
       </div>
     );
   }
+
+  
 
   addMessage = message => {
     const exampleMessage = { username: "doug", body: message };
