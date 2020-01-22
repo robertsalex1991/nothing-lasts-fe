@@ -1,0 +1,11 @@
+#nav-login-container {
+  display: flex;
+  align-items: center;
+}
+
+#current-user-avatar {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
